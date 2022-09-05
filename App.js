@@ -1,13 +1,14 @@
 import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import BottomTab from "./router/BottomTab";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Welcome to inshorens</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <BottomTab />
+    </NavigationContainer>
   );
 }
 
