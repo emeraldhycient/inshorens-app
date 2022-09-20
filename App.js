@@ -8,6 +8,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <BottomTab />
+      <StatusBar style="auto" />
     </NavigationContainer>
   );
 }
