@@ -9,6 +9,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import colors from "../constants/colors";
 import Card from "../components/Home/Card";
 import Cycle from "../components/Home/Cycle";
+import { Title } from "react-native-paper";
 
 const HomeScreen = ({ navigation }) => {
   const [supportedServices, setsupportedServices] = useState([
@@ -54,10 +55,13 @@ const HomeScreen = ({ navigation }) => {
     <Layout title="welcome hycient 👋" navigation={navigation}>
       <Card />
       <Estimation />
-      <ScrollView horizontal style={tw`my-5 pb-4 px-4`}>
+      <ScrollView horizontal style={tw`mt-5 mb-2 pb-4 px-4`}>
         {supportedServices.map((service, index) => (
           <Cycle key={index} title={service.title} icon={service.icon} />
         ))}
+      </ScrollView>
+      <ScrollView style={tw`px-6`}>
+        <Title style={{ color: colors.black }}>Recent Transactions</Title>
       </ScrollView>
     </Layout>
   );
