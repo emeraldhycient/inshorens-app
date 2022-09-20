@@ -1,19 +1,19 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Fontisto from "react-native-vector-icons/Fontisto";
+import Ionicons from "react-native-vector-icons/Ionicons";
 import tw from "twrnc";
-import colors from "../../constants/colors";
+import colors from "../constants/colors";
 
-const NotifBell = () => {
+const HandleBack = ({ navigation }) => {
   return (
     <View
       style={tw`bg-[${colors.white}] rounded-full h-[12] w-[12] border border-gray-200 flex justify-center items-center`}
     >
-      <Fontisto name="bell-alt" color={colors.black} size={18} />
+      <Ionicons name="caret-back" color={colors.black} size={20} />
     </View>
   );
 };
 
-export default NotifBell;
+export default HandleBack;
 
 const styles = StyleSheet.create({});

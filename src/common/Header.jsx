@@ -2,9 +2,9 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import HandleBack from "./HandleBack";
 import tw from "twrnc";
-import colors from "../../constants/colors";
+import colors from "../constants/colors";
 import NotifBell from "./NotifBell";
-import { Title } from "react-native-paper";
+import { Headline } from "react-native-paper";
 
 const Header = ({ showBack, navigation, title }) => {
   return (
@@ -15,7 +15,7 @@ const Header = ({ showBack, navigation, title }) => {
         <View style={tw`w-12`}></View>
       )}
       <View style={tw`mx-auto`}>
-        <Title>{title && title}</Title>
+        <Headline>{title && title}</Headline>
       </View>
       <NotifBell />
     </View>
