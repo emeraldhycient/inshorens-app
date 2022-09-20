@@ -2,7 +2,7 @@ import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import BottomTab from "./router/BottomTab";
+import BottomTab from "./src/router/BottomTab";
 
 export default function App() {
   return (

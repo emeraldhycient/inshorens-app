@@ -4,7 +4,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import tw from "twrnc";
 import colors from "../../constants/colors";
 
-const HandleBack = ({ navigation }) => {
+const HandleBack = () => {
   return (
     <View
       style={tw`bg-[${colors.white}] rounded-full h-[12] w-[12] border border-gray-200 flex justify-center items-center`}
