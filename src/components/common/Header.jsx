@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import HandleBack from "./HandleBack";
 import tw from "twrnc";
-import colors from "../constants/colors";
+import colors from "../../constants/colors";
 import NotifBell from "./NotifBell";
 import { Headline } from "react-native-paper";
 
