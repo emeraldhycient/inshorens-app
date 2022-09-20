@@ -14,6 +14,7 @@ const Estimation = () => {
       >
         <FontAwesome name="pie-chart" color={colors.white} size={24} />
       </View>
+      <View></View>
     </View>
   );
 };

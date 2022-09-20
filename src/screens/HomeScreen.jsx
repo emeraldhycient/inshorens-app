@@ -6,7 +6,7 @@ import Card from "../components/Home/Card";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <Layout title="welcome" navigation={navigation}>
+    <Layout title="welcome hycient 👋" navigation={navigation}>
       <Card />
       <Estimation />
     </Layout>
