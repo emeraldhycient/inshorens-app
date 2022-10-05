@@ -9,7 +9,7 @@ const Cycle = ({ icon, title }) => {
   return (
     <View style={tw`mr-8 flex items-center`}>
       <View
-        style={tw`h-[16] w-[16] bg-[${colors.gray}] rounded-full justify-center items-center`}
+        style={tw`h-[14] w-[14] bg-[${colors.gray}] rounded-full justify-center items-center`}
       >
         {icon}
       </View>

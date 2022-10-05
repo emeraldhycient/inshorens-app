@@ -9,7 +9,7 @@ import { Headline } from "react-native-paper";
 const Header = ({ showBack, navigation, title }) => {
   return (
     <View
-      style={tw`flex flex-row justify-between items-center border-b border-gray-200 shadow  pb-3`}
+      style={tw`flex flex-row justify-between items-center  shadow  pb-3`}
     >
       {showBack ? (
         <HandleBack navigation={navigation} />
