@@ -33,14 +33,14 @@ export default Card;
 
 const styles = StyleSheet.create({
   card1: {
-    height: 260,
+    height: 200,
     width: "100%",
     paddingHorizontal: 14,
     marginVertical: 20,
   },
 
   card2: {
-    height: 260,
+    height: 200,
     width: "100%",
     justifyContent: "flex-end",
     alignItems: "center",
